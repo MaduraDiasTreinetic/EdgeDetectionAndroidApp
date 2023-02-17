@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.metafy_edge_detection_module",
+    "module": "flutter_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_release",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_release",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_release",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "com.baseflow.permissionhandler",
+          "module": "permission_handler_android",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "biz.cunning.cunning_document_scanner",
+          "module": "cunning_document_scanner",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_release-1.0.aar",
+          "url": "flutter_release-1.0.aar",
+          "size": 3228551,
+          "sha512": "58407b429f912084516574f13ce7f7a7d64de78f443fb75d61996b3d0d51ba33a5a9adb7b6c7b27030e8319b00bacb55dd85feebdf7a35c2d929c7f557188dc6",
+          "sha256": "0ea5543e409cf453e4d9ef96bec95ff4308cfe15698881fe5e51d0949837212c",
+          "sha1": "4699e42d2675e81c89cb9f36534e610624b76b8c",
+          "md5": "ff7ae96126a4383e630bca395fa1ddc2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_release",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_release",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_release",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "com.baseflow.permissionhandler",
+          "module": "permission_handler_android",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "biz.cunning.cunning_document_scanner",
+          "module": "cunning_document_scanner",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_release-1.0.aar",
+          "url": "flutter_release-1.0.aar",
+          "size": 3228551,
+          "sha512": "58407b429f912084516574f13ce7f7a7d64de78f443fb75d61996b3d0d51ba33a5a9adb7b6c7b27030e8319b00bacb55dd85feebdf7a35c2d929c7f557188dc6",
+          "sha256": "0ea5543e409cf453e4d9ef96bec95ff4308cfe15698881fe5e51d0949837212c",
+          "sha1": "4699e42d2675e81c89cb9f36534e610624b76b8c",
+          "md5": "ff7ae96126a4383e630bca395fa1ddc2"
+        }
+      ]
+    }
+  ]
+}

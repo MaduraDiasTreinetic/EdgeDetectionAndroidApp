@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.metafy_edge_detection_module",
+    "module": "flutter_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_debug",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_debug",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_debug",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_debug",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "com.baseflow.permissionhandler",
+          "module": "permission_handler_android",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "biz.cunning.cunning_document_scanner",
+          "module": "cunning_document_scanner",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_debug-1.0.aar",
+          "url": "flutter_debug-1.0.aar",
+          "size": 11712320,
+          "sha512": "b05b5d6ef9cd78c68e2bca22c8de262224d77d7a8b70e59d5feb65c33ad5250fd27e229f5032f182efa4bfd78329a585bb44bcecccd8578e57287b142c155a41",
+          "sha256": "66219965175be0754ecd0181c7f3b441c2d90ff8ffd8faf2f58b50d585fa2070",
+          "sha1": "81abb19c2d2d1d12b9e493a7450f251c08304e8a",
+          "md5": "d483129d9c4503d54dfb8b5d27727bfd"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_debug",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_debug",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_debug",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_debug",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "com.baseflow.permissionhandler",
+          "module": "permission_handler_android",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "biz.cunning.cunning_document_scanner",
+          "module": "cunning_document_scanner",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_debug-1.0.aar",
+          "url": "flutter_debug-1.0.aar",
+          "size": 11712320,
+          "sha512": "b05b5d6ef9cd78c68e2bca22c8de262224d77d7a8b70e59d5feb65c33ad5250fd27e229f5032f182efa4bfd78329a585bb44bcecccd8578e57287b142c155a41",
+          "sha256": "66219965175be0754ecd0181c7f3b441c2d90ff8ffd8faf2f58b50d585fa2070",
+          "sha1": "81abb19c2d2d1d12b9e493a7450f251c08304e8a",
+          "md5": "d483129d9c4503d54dfb8b5d27727bfd"
+        }
+      ]
+    }
+  ]
+}

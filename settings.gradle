@@ -1,0 +1,27 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+
+        maven {
+            url    './document_scanner'
+           // url  '/Users/treinetic/Desktop/Work/document_scanner/metafy_edge_detection_module/build/host/outputs/repo'
+        }
+
+        maven {
+            url 'https://storage.googleapis.com/download.flutter.io'
+        }
+
+    }
+}
+rootProject.name = "EdgeDetectionAndroidApp"
+include ':app'
